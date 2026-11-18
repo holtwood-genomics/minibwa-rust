@@ -431,8 +431,8 @@ fn fix_cigar(r: &mut Hit, qseq: &[u8], tseq: &[u8]) -> (i32, i32) {
             if s[1] > 0 && s[2] > 0 && l - k > 2 {
                 p.cigar[k] = s[1] << 4 | CIGAR_INS;
                 p.cigar[k + 1] = s[2] << 4 | CIGAR_DEL;
-                for m in (k + 2)..l {
-                    p.cigar[m] &= 0xf;
+                for op in &mut p.cigar[(k + 2)..l] {
+                    *op &= 0xf;
                 }
                 to_shrink = true;
             }
@@ -648,9 +648,9 @@ fn update_cigar_eqx(r: &mut Hit, qseq: &[u8], tseq: &[u8]) {
     let mut new_cigar: Vec<u32> = Vec::new();
     let mut toff = 0i32;
     let mut qoff = 0i32;
-    for k in 0..p.cigar.len() {
-        let op = p.cigar[k] & 0xf;
-        let len = (p.cigar[k] >> 4) as i32;
+    for &cigar in &p.cigar {
+        let op = cigar & 0xf;
+        let len = (cigar >> 4) as i32;
         if op == CIGAR_MATCH {
             let mut remaining = len;
             while remaining > 0 {
