@@ -3,7 +3,7 @@
 ## Project Truth
 
 minibwa-rust 是 C 版 [minibwa](https://github.com/lh3/minibwa)（bwa-mem 继任者）的 Rust 重写。
-参考 C 源码位于 `/home/shane/github/open-genomics/minibwa`（跟踪 pin 住的 commit，勿改）。
+参考 C 源码位于 `/home/shane/github/holtwood-genomics/minibwa`（跟踪 pin 住的 commit，勿改）。
 
 核心承诺：**索引文件（.l2b/.mbw）与 C 版字节级兼容**，算法行为逐模块对照。
 

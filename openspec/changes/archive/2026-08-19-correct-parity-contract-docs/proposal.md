@@ -3,7 +3,7 @@
 ## Metadata
 
 - Status: `Archived`
-- Repository: `open-genomics/minibwa-rust`
+- Repository: `holtwood-genomics/minibwa-rust`
 - Audit base: `dad6e99b064a93bd017ad819b529686b46413b02`
 - Capability: `reference-parity`
 - Task IDs: `MBW-DOC-001`, `ORG-GOV-001`

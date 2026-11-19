@@ -52,7 +52,7 @@ fi
 
 **验证：**
 ```bash
-cd /home/shane/github/open-genomics/minibwa-rust
+cd /home/shane/github/holtwood-genomics/minibwa-rust
 cargo build --release
 ./scripts/compare.sh data/toy.fa data/toy_reads.fq
 echo $?  # 应输出 0
@@ -67,7 +67,7 @@ echo $?  # 应输出 0
 **文件操作：**
 
 ```bash
-cd /home/shane/github/open-genomics/minibwa-rust
+cd /home/shane/github/holtwood-genomics/minibwa-rust
 mv openspec/changes/correct-parity-contract-docs openspec/changes/archive/
 ```
 
@@ -133,7 +133,7 @@ cat README.md | grep "功能完备"
 
 **命令：**
 ```bash
-cd /home/shane/github/open-genomics/minibwa-rust
+cd /home/shane/github/holtwood-genomics/minibwa-rust
 
 # 1. 格式化检查
 cargo fmt --all -- --check
