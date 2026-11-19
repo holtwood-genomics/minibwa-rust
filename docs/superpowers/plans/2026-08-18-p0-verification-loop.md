@@ -23,7 +23,7 @@
 ### Task 1: Pin C 参考源
 
 **Files:**
-- Create: `/home/shane/github/open-genomics/minibwa`（仓库外 clone，不进 git）
+- Create: `/home/shane/github/holtwood-genomics/minibwa`（仓库外 clone，不进 git）
 - Modify: `AGENTS.md`, `README.md`, `openspec/project.md`
 
 - [ ] Clone `https://github.com/lh3/minibwa` 到 `../minibwa`，记录 HEAD SHA

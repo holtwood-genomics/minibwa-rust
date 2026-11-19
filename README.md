@@ -1,6 +1,6 @@
 # minibwa-rust
 
-[![CI](https://github.com/open-genomics/minibwa-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/open-genomics/minibwa-rust/actions/workflows/ci.yml)
+[![CI](https://github.com/holtwood-genomics/minibwa-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/holtwood-genomics/minibwa-rust/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.85%2B-orange)](Cargo.toml)
 
@@ -118,11 +118,11 @@ MIT
 
 ## 相关项目
 
-- [bwa-rust](https://github.com/open-genomics/bwa-rust)（已归档）— 本项目之前的 BWA-MEM 风格从零实现
-- [fastq-tools](https://github.com/open-genomics/fastq-tools) — C++23 FASTQ 质控工具
+- [bwa-rust](https://github.com/holtwood-genomics/bwa-rust)（已归档）— 本项目之前的 BWA-MEM 风格从零实现
+- [fastq-tools](https://github.com/holtwood-genomics/fastq-tools) — C++23 FASTQ 质控工具
 
 <div align="center">
 
-本仓库属于 [**Open Genomics**](https://github.com/open-genomics) · 高性能生物信息学系统软件与中文知识库
+本仓库属于 [**Holtwood Genomics**](https://github.com/holtwood-genomics) · 高性能生物信息学系统软件与中文知识库
 
 </div>

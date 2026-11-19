@@ -2,7 +2,7 @@
 
 ## Identity
 
-- **Canonical repository**: `open-genomics/minibwa-rust`
+- **Canonical repository**: `holtwood-genomics/minibwa-rust`
 - **Lifecycle**: experimental; Rust rewrite of C minibwa
 - **Language**: Rust (unsafe_code = "forbid")
 
